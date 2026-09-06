@@ -93,8 +93,8 @@ output), plus `/MT:n`, `/DCOPY:DAT`, `/COPY:DATS`, `/XN`, `/XF`, `/XD`, and `/L`
 ## Setup
 
 ```powershell
-git clone https://github.com/navanem/navanem_RoboCopyGUI.git
-cd navanem_RoboCopyGUI
+git clone https://github.com/navanem/robocopygui.git
+cd robocopygui
 dotnet restore RoboSync.sln
 ```
 
@@ -140,7 +140,7 @@ smaller, framework-dependent build (requires the .NET 8 Desktop Runtime on the t
 ## Project structure
 
 ```
-navanem_RoboCopyGUI/
+robocopygui/
 ├── RoboSync.sln
 ├── README.md
 ├── LICENSE
